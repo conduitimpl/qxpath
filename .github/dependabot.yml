@@ -5,12 +5,12 @@ updates:
       schedule:
           interval: daily
       commit-message:
-          prefix: "build(deps): update"
+          prefix: "build(deps):"
           include: scope
     - package-ecosystem: github-actions
       directory: /
       schedule:
           interval: daily
       commit-message:
-          prefix: "ci(actions): update"
+          prefix: "ci(actions):"
           include: scope
