@@ -11,6 +11,6 @@ updates:
       directory: /
       schedule:
           interval: daily
-          commit-message:
-              prefix: "ci(actions): update"
-              include: scope
+      commit-message:
+          prefix: "ci(actions): update"
+          include: scope
