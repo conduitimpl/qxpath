@@ -4,6 +4,16 @@
   "description": "Helpers for executing xpath queries",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
+  "files": [
+    "./dist",
+    "./src",
+    "./LICENSE.BlueOak-1.0.0.md",
+    "./LICENSE.BSD-2-Clause-Patent.md",
+    "./LICENSE.ISC.md",
+    "./package.json",
+    "./README.md",
+    "./yarn.lock"
+  ],
   "repository": "https://github.com/conduitimpl/qxpath",
   "author": "The Conduit Lab <lab@conduitim.pl>",
   "license": "(BlueOak-1.0.0 OR BSD-2-Clause-Patent OR ISC)",
