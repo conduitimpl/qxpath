@@ -13,7 +13,7 @@ jobs:
               run: yarn build
             - name: Create package
               run: yarn pack
-            - uses: actions/upload-artifact@v2
+            - uses: actions/upload-artifact@v3
               with:
                   name: package.tgz
                   path: package.tgz
